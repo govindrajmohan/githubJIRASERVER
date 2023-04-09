@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: false }));
 // mongodb://127.0.0.1:27017/jira
 // 'mongodb+srv://govindmohan144:CsMySeVBkLggb39J@clusterinstaclone.eruplhp.mongodb.net/?retryWrites=true&w=majority',
 try {
-    mongoose.connect('mongodb+srv://govindmohan144:CsMySeVBkLggb39J@clusterinstaclone.eruplhp.mongodb.net/?retryWrites=true&w=majority',
+    mongoose.connect('yourdblink',
         {
             useUnifiedTopology: true,
             useNewUrlParser: true
